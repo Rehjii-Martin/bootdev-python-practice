@@ -20,7 +20,7 @@ Notes:
     - returning is not necessary within loop
 
 Date: 2026-01-06
-Source: Boot.dev Training Grounds
+Source: Boot.dev Learn to Code in Python/Counting Items in a List
 '''
 
 def get_item_counts(items):
