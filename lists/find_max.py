@@ -38,6 +38,6 @@ def find_max(nums):
         return float("-inf")
 
     for num in nums:
-        if num < max_so_far:
+        if num > max_so_far: # rookie mistake here, flip signs, greater than not lesser, everything is lesser than neg-inf
             max_so_far == num
     return max_so_far
