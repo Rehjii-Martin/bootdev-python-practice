@@ -1,13 +1,5 @@
-# Problem
-
-# Our players need a way to see how many copies of a specific item they have within their inventory!
-# Let's finish the get_item_counts function.
-# Within the loop, check if the items are a Potion, Bread, or Shortsword.
-# If you find a match, increment the corresponding counter, either potion_count, bread_count or shortsword_count. """
-
-
 '''
-Boot.dev – Python Track
+Boot.dev – Learn to Code in Python
 CH9: Lists
 Problem: Counting Items in a List
 
@@ -22,6 +14,14 @@ Notes:
 Date: 2026-01-06
 Source: Boot.dev Learn to Code in Python/Counting Items in a List
 '''
+
+# Problem
+
+# Our players need a way to see how many copies of a specific item they have within their inventory!
+# Let's finish the get_item_counts function.
+# Within the loop, check if the items are a Potion, Bread, or Shortsword.
+# If you find a match, increment the corresponding counter, either potion_count, bread_count or shortsword_count. """
+
 
 def get_item_counts(items):
     potion_count = 0
