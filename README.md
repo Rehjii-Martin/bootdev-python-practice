@@ -12,4 +12,3 @@ This repo serves as a record of daily learning and review across Python fundamen
 - dictionaries and sets
 - functions and control flow
 - basic algorithms
-- testing WSL ssh push
