@@ -34,7 +34,7 @@ Source: Boot.dev Learn to Code in Python/Find Max
 def find_max(nums):
     max_so_far = float("-inf")
     
-    if nums == []:
+    if not nums:
         return float("-inf")
 
     for num in nums:
