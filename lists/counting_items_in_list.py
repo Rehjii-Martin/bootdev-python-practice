@@ -30,14 +30,15 @@ def get_item_counts(items):
 
     # don't touch above this line
 
-        for i in range(0, len(items)):
-            if items[i] == "Potion":
+    for i in range(0, len(items)):
+        if items[i] == "Potion":
                 potion_count += 1
-            if items[i] == "Bread":
+        if items[i] == "Bread":
                 bread_count += 1
-            if items[i] == "Shortsword":
+        if items[i] == "Shortsword":
                 shortsword_count += 1
 
     # don't touch below this line
 
     return potion_count, bread_count, shortsword_count
+
