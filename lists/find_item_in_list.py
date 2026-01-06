@@ -7,8 +7,8 @@ Description:
     Use no-index or no-range syntax to find items within list.
 
 Notes:
-    -
-    -
+    - [Repeated Error] double == for assignment, it is for boolean = is for assignment
+    - for-loops do not need range nor index, looping and printing values is possible
 Date: 2026-01-06
 Source: Boot.dev Learn to Code in Python/Find an Item in a List
 '''
@@ -27,7 +27,9 @@ def contains_leather_scraps(items):
 
     # don't touch above this line
 
-    # ?
+    for item in items:
+        if item == "Leather Scraps":
+            found = True
 
     # don't touch below this line
 
