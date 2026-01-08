@@ -6,7 +6,8 @@ Problem: Find Max
 Description:
     Initialize start as negative infinity, compare each num in nums to find max
 Notes:
-    - 
+    - [Repeated Error] double == for assignment, it is for boolean = is for assignment
+    - no-index syntax is a benefit for strict value returns, such as this problem
 Date: 2026-01-06
 Source: Boot.dev Learn to Code in Python/Find Max
 '''
@@ -39,5 +40,5 @@ def find_max(nums):
 
     for num in nums:
         if num > max_so_far: # rookie mistake here, flip signs, greater than not lesser, everything is lesser than neg-inf
-            max_so_far == num
+            max_so_far = num # same repeated mistake again, == is for boolean, = is for assignment
     return max_so_far
