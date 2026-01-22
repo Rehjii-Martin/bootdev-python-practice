@@ -6,4 +6,5 @@
 # Delete the last two strongholds from the list
 
 def trim_strongholds(strongholds):
-    pass
+    del strongholds[0]
+    del strongholds[-2:-1]
