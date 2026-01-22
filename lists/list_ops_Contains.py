@@ -20,7 +20,7 @@ def is_top_weapon(weapon):
 
     # don't touch above this line
     
-    if print(f"{weapon}") in top_weapons:
+    if weapon in top_weapons: ## <-- no need to f string, just refer weapon directly
         return True
     else:
         return False
