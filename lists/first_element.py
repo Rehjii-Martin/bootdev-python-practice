@@ -1,2 +1,11 @@
+# Assignment
+# Let's keep improving our inventory system. Complete the get_first_item function. It takes a list as input.
+
+# Return the first element from the items list.
+# If items is empty, return the string "ERROR" instead.
+
+
 def get_first_item(items):
-    pass
+    if len(items) == 0:
+        return "ERROR"
+    return items[0] ## this one was relatively easy, at first I wrote it out of order
