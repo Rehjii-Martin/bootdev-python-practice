@@ -10,9 +10,9 @@
 
 def get_heroes():
     heroes = [
-        hero_1 = ("Glorfindel", 2093, True)
-        hero_2 = ("Gandalf", 1054, False)
-        hero_3 = ("Gimli", 389, False)
+        hero_1 = ("Glorfindel", 2093, True),
+        hero_2 = ("Gandalf", 1054, False),
+        hero_3 = ("Gimli", 389, False),
         hero_4 = ("Aragorn", 87, False)
     ]
 
