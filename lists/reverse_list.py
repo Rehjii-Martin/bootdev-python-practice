@@ -12,6 +12,8 @@
 def reverse_list(items):
     reverse_list = []
     
-    for i in range((len(items) - 1)):
+    for i in range((len(items) - 1), -1, -1): # finally cracked it, took some iteration but was additive and useful, success
         reverse_list.append(items[i])
     return reverse_list
+
+# getting used to indexing using negative numbers and starts and stops, becoming familiar
